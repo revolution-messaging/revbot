@@ -24,9 +24,9 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         switch res.statusCode
           when 200
-            msg.send "Sorry, #{domain} is not available."
+            msg.send "Sorry, #{domain} is already taken."
           when 404
-            msg.send "Woohoo! #{domain} can be registered today!"
+            msg.send "#{domain} is available and can be registered today!"
           when 401
             msg.send "You need to authenticate by setting the HUBOT_DNSIMPLE_USERNAME & HUBOT_DNSIMPLE_API_TOKEN environment variables"
           else
