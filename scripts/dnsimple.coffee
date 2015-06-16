@@ -18,7 +18,7 @@ dnsimpleToken = process.env.HUBOT_DNSIMPLE_USERNAME + ':' + process.env.HUBOT_DN
 
 module.exports = (robot) ->
   robot.respond /check domain (.*)/i, (msg) ->
-    domain = msg.match[1]
+    domain = escape(msg.match[1].split('|')[0].replace /\<|\>|https?:\/\/|www\./g, "") 
     msg.http("https://api.dnsimple.com/v1/domains/#{domain}/check")
       .headers("X-DNSimple-Token": dnsimpleToken, Accept: "application/json", "User-Agent": "hubot-dnsimple")
       .get() (err, res, body) ->
