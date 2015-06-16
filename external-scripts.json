@@ -1,6 +1,5 @@
 [
   "hubot-diagnostics",
-  "hubot-dnsimple",
   "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-google-images",
@@ -11,5 +10,6 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
+  "hubot-thank-you",
   "hubot-youtube"
 ]
