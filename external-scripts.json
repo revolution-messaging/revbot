@@ -1,4 +1,5 @@
 [
+  "hubot-daily-update",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
