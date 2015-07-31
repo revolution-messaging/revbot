@@ -6,7 +6,6 @@
   "description": "A supercomputer with a mind of its own",
   "dependencies": {
     "hubot": "^2.13.2",
-    "hubot-daily-update": "^1.1.1",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
@@ -18,6 +17,7 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-slack": "^3.3.0",
+    "hubot-standup": "^0.1.8",
     "hubot-thank-you": "0.0.3",
     "hubot-youtube": "^1.0.0"
   },
