@@ -20,6 +20,7 @@
     "hubot-slack": "^3.3.0",
     "hubot-standup": "^0.1.8",
     "hubot-thank-you": "0.0.3",
+    "hubot-whois": "https://github.com/ganta/hubot-whois/tarball/v1.0.0",
     "hubot-youtube": "^1.0.0"
   },
   "engines": {
